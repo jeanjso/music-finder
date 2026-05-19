@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Search and preview music tracks using the iTunes API"
+    />
+    <title>Music Finder</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/api.js"></script>
+    <script defer src="js/ui.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Music Finder</h1>
+    </header>
+    <main>
+      <section id="search">
+        <form id="search-form">
+          <label for="search-input">Search music</label>
+          <input
+            type="search"
+            id="search-input"
+            name="query"
+            placeholder="e.g. Coldplay, Imagine Dragons"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section id="results" aria-live="polite">
+        <!-- vacío por ahora, JS inyectará las cards desde issue #4 -->
+      </section>
+    </main>
+    <footer>
+      <p>
+        Built by
+        <a
+          href="https://github.com/jeanjso"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Jean</a
+        >
+        · Powered by iTunes Search API
+      </p>
+    </footer>
+  </body>
+</html>
