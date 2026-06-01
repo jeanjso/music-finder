@@ -124,6 +124,25 @@ main {
   gap: 1rem;
   margin-top: 1rem;
 }
+#results article {
+  display: flex;
+  flex-direction: column;
+}
+#results article h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#results article img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin-top: auto;   /* ← la clave: empuja la imagen al fondo de la card */
+}
 
 /* ============================================
    6. Media queries (ACÁ sí podés volver a referenciar body, etc.)
