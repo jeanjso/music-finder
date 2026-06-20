@@ -4,8 +4,8 @@
 
 ## ✨ Features (MVP)
 
-- [ ] Búsqueda por nombre de canción o artista
-- [ ] Resultados con artwork, canción, artista y álbum
+- [x] Búsqueda por nombre de canción o artista
+- [x] Resultados con artwork, canción, artista y álbum
 - [ ] Reproducción de preview de 30 segundos
 - [ ] Manejo de estados: loading, error, sin resultados
 - [ ] Diseño responsive mobile-first
